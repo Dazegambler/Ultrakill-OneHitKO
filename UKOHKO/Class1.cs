@@ -10,7 +10,7 @@ using UnityEngine;
 
 namespace TestMod
 {
-    [BepInPlugin("Test.Mod", "TESTMOD", "1.0.0")]
+    [BepInPlugin("UK.OHKO", "UKOHKO", "1.0.0")]
 
     public class Plugin : BaseUnityPlugin
     {
