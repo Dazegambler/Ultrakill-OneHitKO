@@ -15,3 +15,9 @@ Simply press L or your Designated Key to force your Hp down to one
 You can use any Text Editor to change the .config file but i highly recommend using the plugin linked below for not needing to restart your game everytime:
 
 https://github.com/BepInEx/BepInEx.ConfigurationManager
+
+# Building
+
+You'll have to get the Assembly-CSharp file from your ULTRAKILL game file:
+
+ULTRAKILL/ULTRAKILL_Data/Managed
