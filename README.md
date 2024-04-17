@@ -8,7 +8,7 @@ ULTRAKILL/BepInEx/plugins
 
 # Usage
 
-Simply press L or your Designated Key to force your Hp down to one
+Simply press O or your Designated Key to force your Hp down to one
 
 # Configuration
 
