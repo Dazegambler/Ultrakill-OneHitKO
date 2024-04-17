@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "SNYzJRNVh7ItEq4HLdxoPNc+m07KRH5zbgFWhwmXapTdyC8P2MIkHA1xZToOpI/vmHNx0cvQ88zdm+NeB9zyFw==",
+  "success": true,
+  "projectFilePath": "/home/dazegambler/work/Ultrakill-OneHitKO/UKOHKO/UKOHKO.csproj",
+  "expectedPackageFiles": [
+    "/home/dazegambler/.nuget/packages/microsoft.netcore.app.ref/6.0.27/microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
+    "/home/dazegambler/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.27/microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512"
+  ],
+  "logs": []
+}

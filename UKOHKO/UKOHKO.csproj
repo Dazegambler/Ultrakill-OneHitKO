@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="lib/" />
+  </ItemGroup>
+
+  <ItemGroup>
+   <Reference Include="BepInEx">
+    <HintPath>lib/BepInEx.dll</HintPath>
+   </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+   <Reference Include="Unity.Core">
+    <HintPath>lib/UnityEngine.CoreModule.dll</HintPath>
+   </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+   <Reference Include="UnityEngine">
+    <HintPath>lib/UnityEngine.dll</HintPath>
+   </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+   <Reference Include="Assembly-CSharp">
+    <HintPath>/Path/To/Assembly-CSharp.dll</HintPath>
+   </Reference>
+  </ItemGroup>
+  
+  <ItemGroup>
+   <Reference Include="UnityEngine.Input">
+    <HintPath>lib/UnityEngine.InputLegacyModule.dll</HintPath>
+   </Reference>
+  </ItemGroup>
+
+</Project>
