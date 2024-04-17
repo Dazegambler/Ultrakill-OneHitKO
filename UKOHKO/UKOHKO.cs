@@ -1,6 +1,5 @@
 ﻿namespace UKOHKO;
 
-using System.Security.AccessControl;
 using BepInEx;
 using BepInEx.Configuration;
 using UnityEngine;
