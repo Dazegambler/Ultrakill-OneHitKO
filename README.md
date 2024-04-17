@@ -18,6 +18,6 @@ https://github.com/eternalUnion/UKPluginConfigurator
 
 # Building
 
-To build it Change the path to the Assembly-CSharp.dll file on UKOHKO.csproj for:
+To build it Change the path to the Assembly-CSharp.dll file on UKOHKO.csproj for your local game path,such as:
 
-ULTRAKILL/ULTRAKILL_Data/Managed
+ULTRAKILL/ULTRAKILL_Data/Managed/Assembly-CSharp.dll
