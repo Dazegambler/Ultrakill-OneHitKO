@@ -3,6 +3,7 @@
 using BepInEx;
 using BepInEx.Configuration;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 [BepInPlugin("UKOHKO","UKOHKO","2.0")]
 public class Plugin:BaseUnityPlugin
@@ -23,21 +24,15 @@ public class Plugin:BaseUnityPlugin
     }
 
     void Update(){
-        if(Input.GetKeyDown(ohkokey.Value)){
+        if(Keyboard.current.oKey.wasPressedThisFrame){
             ohko = !ohko;
             Debug.Log("ohko:"+ohko);
         }
-        if(ohko){
-            if(!Player){
-                GetPlayer().hp = Mathf.Clamp(Player.hp,0,1);
-                return;
-            }
-            Player.hp = Mathf.Clamp(Player.hp,0,1);
-        }       
+        if(ohko && GetPlayer()) Player.hp = Mathf.Clamp(Player.hp, 0, 1);
     }
 
     NewMovement GetPlayer(){
-        Player = NewMovement.Instance;
+        if(!Player)Player = NewMovement.Instance;
         return Player;
     }
 }

@@ -29,8 +29,14 @@
   </ItemGroup>
 
   <ItemGroup>
+   <Reference Include="UnityEngine.InputSystem">
+    <HintPath>lib/Unity.InputSystem.dll</HintPath>
+   </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
    <Reference Include="Assembly-CSharp">
-    <HintPath>/Path/To/Assembly-CSharp.dll</HintPath>
+    <HintPath>/home/dazegambler/.steam/debian-installation/steamapps/common/ULTRAKILL/ULTRAKILL_Data/Managed/Assembly-CSharp.dll</HintPath>
    </Reference>
   </ItemGroup>
   
