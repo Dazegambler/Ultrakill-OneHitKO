@@ -6,7 +6,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.Controls;
 
-[BepInPlugin("UKOHKO","UKOHKO","2.0")]
+[BepInPlugin("UKOHKO","UKOHKO","2.1")]
 public class Plugin:BaseUnityPlugin
 {
     ConfigEntry<bool> ohkostart;
